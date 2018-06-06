@@ -51,8 +51,8 @@
                       % width
 \RequirePackage{framed}
 
-\RequirePackage{color} % used to change color of text
-
+%\RequirePackage{color} % used to change color of text
+\RequirePackage{xcolor} % used to change color of text
 \RequirePackage{fancyhdr} % Allows customization of headers/footers
 \renewcommand{\headrulewidth}{0pt}
 
@@ -139,7 +139,7 @@
 
 
 \RequirePackage{caption} % Allows customization of captions
-
+\RequirePackage{amsmath,amssymb} % Math
 \RequirePackage{cleveref} % Used for 'smart' references
 
 
@@ -156,7 +156,7 @@
 
 \RequirePackage{endnotes} % Used for making endnotes
 
-\RequirePackage{amsmath,amssymb} % Math
+%\RequirePackage{amsmath,amssymb} % Math
 
 \RequirePackage{listings} % Code
 \lstset{breaklines=true,basicstyle=\ttfamily\fontsize{10pt}{11pt}\selectfont,xleftmargin=1.2cm,breakindent=.6cm}
